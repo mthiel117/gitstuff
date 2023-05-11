@@ -33,3 +33,12 @@ git restore --source 0b293b4 file1.txt
 # Example to clone this repo
 git clone https://github.com/mthiel117/gitstuff.git
 ```
+
+## Diff between branches
+
+``` bash
+git diff <branch1>..<branch2>
+
+# example
+git diff main..update-hostnames
+```
